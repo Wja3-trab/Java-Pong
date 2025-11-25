@@ -17,7 +17,7 @@ public class Ball extends Entity {
         this.width = gamePanel.tileSize/2;
         this.height = gamePanel.tileSize/2;
         this.r = width / 2;
-        this.speed = 4;
+        this.speed = 3;
         startingPosition();
         this.area = new Ellipse2D.Double(xPos, yPos, width, height);
     }
